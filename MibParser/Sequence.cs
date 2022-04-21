@@ -13,7 +13,7 @@ namespace Lextm.SharpSnmpLib.Mib
     /// <summary>
     /// The SEQUENCE type represents a list of specified types. This is roughtly analogous to a <code>struct</code> in C.
     /// </summary>
-    internal sealed class Sequence : ITypeAssignment
+    public sealed class Sequence : ITypeAssignment
     {
         private string _name;
 

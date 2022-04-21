@@ -81,7 +81,7 @@ namespace Lextm.SharpSnmpLib.Mib
             return Compile(fileName, File.OpenText(fileName));
         }
 
-        private static IList<IModule> Compile(string file, TextReader stream)
+        public static IList<IModule> Compile(string file, TextReader stream)
         {
             try
             {
